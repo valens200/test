@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><script></script></title>
+  <style>
+      button {
+          font-size: 10px;
+      }
+  </style>
+</head>
+<body>
+  <p id="demo"></p>
+  <p id="kiku"></p>
+  <p id="vava">peaple tries to fight against man</p>
+  <p id="kim"></p>
+  <p id="kima"></p>
+  <button onclick="myfunction()">clickhere</button>
+    <script>
+     /* var person = {
+          firstname:"valens",
+          lastname:"niyonsenga",
+          fullname: function(){
+            person.firstname + " " + person.lastname;
+          }
+      };
+      var text = "ABCDEFG";
+      document.getElementById("demo").innerHTML = text.length;
+     document.getElementById("kiku").innerHTML = person.firstname + " " + person.lastname;
+      //document.getElementById("kiku").innerHTML = person.fullname();*/
+      /*function myfunction() {
+          var text1 = "hello";
+          var text2 = "vava";
+          var text = document.getElementById("vava").innerHTML;
+          var pos = text.concat(" " + text2);
+          var pas = text.charCodeAt(0);
+          document.getElementById("kim").innerHTML = pos;
+          document.getElementById("kima").innerHTML = pas;
+
+      }*/
+      function  myfunction() {
+          mynumber = 2;
+          var text = ""
+          while(mynumber != Infinity){ 
+              mynumber = mynumber * mynumber;
+              text = text + mynumber + "<br>"
+          }
+          document.getElementById("kim").innerHTML = text;
+
+
+          
+      }
+
+
+  </script>
+
+</body>
+</html>
